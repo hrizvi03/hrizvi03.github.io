@@ -31,7 +31,7 @@ body {
     }
 
     .title {
-        font-size: 2rem;
+        font-size: 1rem;
         /* Reduce font size */
     }
 
@@ -50,7 +50,7 @@ body {
 /* For very small screens, like mobile phones */
 @media (max-width: 480px) {
     .title {
-        font-size: 1.5rem;
+        font-size: 1rem;
         /* Smaller font for mobile */
     }
 
@@ -165,7 +165,7 @@ a:hover {
     display: block;
     padding: 10px;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: black;
     text-decoration: none;
 }
@@ -219,7 +219,7 @@ section {
 
 .section_pic-container {
     display: block;
-    width: 100%;
+    width: 30%;
     height: auto;
     border-radius: 50%;
     object-fit: cover;
