@@ -12,7 +12,7 @@ body {
 }
 
 /* For smaller screens, like tablets or mobile devices */
-@media (max-width: 768px) {
+@media (max-width: 750px) {
     #profile {
         flex-direction: column;
         /* Stack the profile image and text */
@@ -21,12 +21,12 @@ body {
     }
 
     .section_pic-container {
-        max-width: 250px;
+        max-width: 200px;
         /* Reduce image size */
     }
 
     .section_text {
-        width: 100%;
+        width: 90%;
         /* Allow the text to fill the width */
     }
 
