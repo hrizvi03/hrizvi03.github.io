@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+
+<body>
+    <!-- Desktop Navigation -->
+    <nav id="desktop-nav">
+        <div class="logo">Hiba Rizvi</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hamburger Navigation -->
+    <nav id="hamburger-nav">
+        <div class="logo">Hiba Rizvi</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Profile Section -->
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./assets/hibarzv.png" width="600px" alt="Hiba Rizvi profile pic">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Hiba Rizvi</h1>
+            <p class="section_text_p2">Aspiring Software Engineer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets')">Download Resume</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linky.webp" alt="My LinkedIn profile" class="icon"
+                    onclick="location.href='https://www.linkedin.com/in/hibarizvi1'">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="about-details-container">
+                <h3>My Software Engineering Journey</h3>
+                <p>I am a fourth-year undergraduate student studying Software Engineering at Loyola University Chicago.
+                    As a student studying for a career in Software Engineering, I was prompted to consider the moral
+                    impact of my work on society. While professions such as those in medicine and law have a more direct
+                    association with helping individuals or addressing injustices, the role of a Software Engineer may
+                    seem less necessary and useful in its societal contribution. I found myself at crossroads at Loyola,
+                    contemplating whether my passion for coding could truly make a difference in the world around me --
+                    until I realized the transformative power of technology in my parents' lives. As they immigrated
+                    here alone, leaving their families in their homeland, they would not have guessed that they’d be
+                    able to see their faces and video call them whenever, and at a reasonable cost. They didn’t realize
+                    how easy it’d be to understand directions in this foreign country with phone maps or connect online
+                    with other Shia Muslims that also immigrated here. Technology made it easier for my sisters and I to
+                    prosper in America and land at four-year universities, as we had resources such as online tutors and
+                    programs. Our lives are changing day-by-day with new technology, and by taking on a career in the
+                    field, I would love to contribute to these world-changing experiences. The widespread accessibility
+                    to information and the connection enabled by technology shows the indirect yet great influence of
+                    Software Engineering on society.
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <h1 class="title">Professional and Work Experiences</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2> AEI Telehealth Clinic - Technical Operations Manager: December 2024 - Present</h2>
+                    <p>I led the design of a secure and scalable website for a nonprofit telehealth platform, enabling
+                        the delivery of free medical services to underserved communities in Iraq and Pakistan. I advised
+                        on and implemented a robust patient intake system that ensured seamless data capture, easy
+                        access, and compliance with local privacy regulations. In addition, I provided ongoing training
+                        and technical support to staff and healthcare providers, ensuring smooth integration and
+                        effective use of telehealth tools in low-resource environments. I also continuously monitored
+                        and optimized system performance, ensuring high availability and minimal downtime, particularly
+                        in remote or unstable regions.
+
+
+
+                    </p>
+                    <h2> Loyola University Career Services - Career Peer: August 2023 - Present </h2>
+                    <br>
+                    <h2 class="experience-subtitle">Handshake Solo Panel Speaker</h2>
+                    <p>Last August, I represented Gen-Z students entering the workforce at Handshake's second Talent Lab
+                        panel,
+                        where eight leaders discussed talent acquisition and early talent recruiting. I shared insights
+                        on hybrid
+                        work, mentorship, and professional development. Discussions also covered AI's role in humanizing
+                        job searches
+                        and strategies for quantifying ROI in talent acquisition.</p>
+
+                    <h2 class="experience-subtitle">Business Insider Article</h2>
+                    <p>In November 2024, I contributed to a Business Insider article examining challenges Gen Z college
+                        graduates face
+                        entering the workforce. The article highlighted a Handshake survey showing over half of the
+                        class of 2025 feels
+                        pessimistic about job prospects due to layoffs, student loan debt, and AI concerns. It explores
+                        competition for
+                        entry-level roles and changes in early career opportunities.</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <h1>
+            Skills: Python, Java, HTML/CSS, JavaScript, React, TypeScript, Node.js, VSCode, Google CoLab, IntellijIDEA,
+            PyCharm, Figma, Azure, AWS, Cloud-Computing, Wordpress, SquareSpace, Requirements Engineering, Excel,
+            Microsoft Office, Windows OS
+        </h1>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h1 class="title">Projects</h1>
+        <br>
+        <br>
+        <h2 class="project-subtitle">LADYLIKE.</h2>
+        <p>UI/UX design prototype reimagining a female health app to enhance user experience and healthcare
+            accessibility.
+            The goal was to break down barriers to healthcare by offering essential features for free, ensuring
+            universal access.</p>
+
+        <h2 class="project-subtitle">OpenRefine Open-Source Contributions</h2>
+        <p>Contributed to OpenRefine by improving UI/UX and interface functionality. Added a "Get Help" button for
+            streamlined
+            issue reporting, enhanced the Undo/Redo feature for better usability, and proposed a disk space notification
+            to prevent
+            performance issues.</p>
+
+        <h2 class="project-subtitle">Curriculum Genius</h2>
+        <p>Developed an AI-powered role-playing tool for teacher training. It enables educators to practice key skills
+            like
+            parent-teacher communication, student conflict resolution, and emergency preparedness in an interactive,
+            risk-free environment.</p>
+
+        <h2 class="project-subtitle">AEI Telehealth Clinic</h2>
+        <p>Designed a website for a nonprofit providing free telehealth services to underserved communities in Iraq and
+            Pakistan.
+            Built with WordPress and customized embedded code for scheduling and patient portal functionality. A
+            full-stack web version is in progress.</p>
+
+        <h2 class="project-subtitle">Data Mining Project</h2>
+        <p>Analyzed Chicago's Asbestos and Demolition Notification data to identify patterns and trends in demolition
+            sites.
+            The dataset spans from 1993 to 2011, including geographic coordinates, site ownership details, and permit
+            histories.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h1 class="title">Contact Me</h1>
+        <h2> Email: hiba.rizvi.swe@gmail.com</h2>
+        <h2>Linkedin: https://www.linkedin.com/in/hibarizvi1</h2>
+        <h2> github.com/hrizvi03</h2>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
