@@ -1,6 +1,6 @@
 @media screen and (max-width: 1400px) {
     #profile {
-        height: 83vh;
+        height: 75vh;
         margin-bottom: 6rem;
         align-items: center;
     }
@@ -43,9 +43,9 @@
     }
 
     .section_pic-container {
-        width: 275px;
-        height: 275px;
-        margin: 0 auto 2rem;
+        width: 250px;
+        height: 250px;
+        margin: 0 auto 1.5rem;
     }
 
     .about-containers {
@@ -61,12 +61,12 @@
     }
 
     #profile {
-        height: 83vh;
+        height: 75vh;
         margin-bottom: 0;
     }
 
     article {
-        font-size: 1rem;
+        font-size: 0.5rem;
     }
 
     footer nav {
@@ -86,11 +86,11 @@
 
     .contact-info-container p,
     .nav-links li a {
-        font-size: 1rem;
+        font-size: 0.5rem;
     }
 
     .experience-sub-title {
-        font-size: 1.25rem;
+        font-size: 1 rem;
     }
 
     .logo {
@@ -105,16 +105,16 @@
 
     .section_pic-container {
         width: auto;
-        height: 46vw;
+        height: 40vw;
         justify-content: center;
     }
 
     .section_text_p2 {
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
 
     .title {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .text-container {
