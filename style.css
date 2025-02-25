@@ -11,6 +11,67 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+/* For smaller screens, like tablets or mobile devices */
+@media (max-width: 768px) {
+    #profile {
+        flex-direction: column;
+        /* Stack the profile image and text */
+        gap: 2rem;
+        /* Reduce space between image and text */
+    }
+
+    .section_pic-container {
+        max-width: 250px;
+        /* Reduce image size */
+    }
+
+    .section_text {
+        width: 100%;
+        /* Allow the text to fill the width */
+    }
+
+    .title {
+        font-size: 2rem;
+        /* Reduce font size */
+    }
+
+    .btn-container {
+        flex-direction: column;
+        /* Stack buttons vertically */
+        gap: 1rem;
+    }
+
+    section {
+        margin: 0 1rem;
+        /* Reduce the section's margin */
+    }
+}
+
+/* For very small screens, like mobile phones */
+@media (max-width: 480px) {
+    .title {
+        font-size: 1.5rem;
+        /* Smaller font for mobile */
+    }
+
+    .btn {
+        width: 100%;
+        /* Make buttons full width */
+        padding: 1rem;
+    }
+
+    #profile {
+        gap: 1rem;
+        /* Reduce gap further */
+    }
+
+    .section_pic-container {
+        max-width: 200px;
+        /* Further reduce image size */
+    }
+}
+
+
 html {
     scroll-behavior: smooth;
 }
